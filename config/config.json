@@ -1,0 +1,46 @@
+{
+  "DEV": {
+    "hdfs": {
+      "webhdfs_url":"http://192.168.0.81:50070/webhdfs/v1/",
+      "OPEN": "{0}/{1}?op=OPEN",
+      "CREATE":"{0}/{1}?op=CREATE&overwrite=true&data=true",
+      "MKDIRS": "{}/{}?op=MKDIRS",
+      "GETFILESTATUS": "{}/{}?op=GETFILESTATUS",
+      "DELETE": "{}/{}?op=DELETE",
+      "LISTSTATUS": "{}/{}?op=LISTSTATUS",
+      "GETCONTENTSUMMARY": "{}/{}?op=GETCONTENTSUMMARY",
+      "GETFILECHECKSUM": "{}/{}?op=GETFILECHECKSUM"
+    },
+    "data_dir": "/Users/pravin/Documents/"
+  },
+
+  "UAT": {
+    "hdfs": {
+      "webhdfs_url":"http://192.168.0.81:50070/webhdfs/v1/",
+      "OPEN": "{0}/{1}?op=OPEN",
+      "CREATE":"{0}/{1}?op=CREATE&overwrite=true&data=true",
+      "MKDIRS": "{}/{}?op=MKDIRS",
+      "GETFILESTATUS": "{}/{}?op=GETFILESTATUS",
+      "DELETE": "{}/{}?op=DELETE",
+      "LISTSTATUS": "{}/{}?op=LISTSTATUS",
+      "GETCONTENTSUMMARY": "{}/{}?op=GETCONTENTSUMMARY",
+      "GETFILECHECKSUM": "{}/{}?op=GETFILECHECKSUM"
+    },
+    "data_dir": "/Users/pravin/Documents/"
+  },
+
+  "PROD": {
+    "hdfs": {
+      "webhdfs_url":"http://192.168.0.81:50070/webhdfs/v1/",
+      "OPEN": "{0}/{1}?op=OPEN",
+      "CREATE":"{0}/{1}?op=CREATE&overwrite=true&data=true",
+      "MKDIRS": "{}/{}?op=MKDIRS",
+      "GETFILESTATUS": "{}/{}?op=GETFILESTATUS",
+      "DELETE": "{}/{}?op=DELETE",
+      "LISTSTATUS": "{}/{}?op=LISTSTATUS",
+      "GETCONTENTSUMMARY": "{}/{}?op=GETCONTENTSUMMARY",
+      "GETFILECHECKSUM": "{}/{}?op=GETFILECHECKSUM"
+    },
+    "data_dir": "/Users/pravin/Documents/"
+  }
+}
