@@ -154,5 +154,32 @@
 			"column_type": "varchar",
 			"column_number": 6
 		}
+	],
+	"mock": [
+		{
+			"column_name": "id",
+			"column_type": "int",
+			"column_number": 1
+		},
+		{
+			"column_name": "first_name",
+			"column_type": "varchar",
+			"column_number": 2
+		},
+		{
+			"column_name": "last_name",
+			"column_type": "varchar",
+			"column_number": 3
+		},
+		{
+			"column_name": "email",
+			"column_type": "varchar",
+			"column_number": 4
+		},
+		{
+			"column_name": "gender",
+			"column_type": "varchar",
+			"column_number": 5
+		}
 	]
 }
